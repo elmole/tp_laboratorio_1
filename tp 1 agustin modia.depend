@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1472747089 source:c:\users\pc\desktop\utn\tp 1 agustin modia\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funcmodia.h"
+
+1472747202 c:\users\pc\desktop\utn\tp 1 agustin modia\funcmodia.h
+
