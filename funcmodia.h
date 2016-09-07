@@ -1,82 +1,82 @@
 
-float factorial(float num1);
+double factorial(double num1);
 
-float factorial(float num1)
+double factorial(double num1)
 {
-    float respuesta;
+    double resp;
 
     if(num1 == 1)
     {
         return 1;
     }
 
-    respuesta = num1 * factorial(num1 - 1);
+    resp = num1 * factorial(num1 - 1);
 
-    return respuesta;
+    return resp;
 }
 
 
-float suma(float A, float B);
+float suma(float num1, float num2);
 
-float suma(float A, float B)
+float suma(float num1, float num2)
 {
-    float respuesta;
+    float resp;
 
-    respuesta = A + B;
-    printf("La suma da: %.2f\n", respuesta);
+    resp = num1 + num2;
+    printf("La suma da: %.2f\n", resp);
 
-    return respuesta;
+    return resp;
 }
 
 
-float resta(float A, float B);
+float resta(float num1, float num2);
 
-float resta(float A, float B)
+float resta(float num1, float num2)
 {
-    float respuesta;
+    float resp;
 
-    respuesta = A - B;
-    printf("La resta da: %.2f\n", respuesta);
+    resp = num1 - num2;
+    printf("La resta da: %.2f\n", resp);
 
-    return respuesta;
-}
-
-
-
-
-float multiplicar(float A, float B);
-
-float multiplicar(float A, float B)
-{
-    float respuesta;
-
-    respuesta = A * B;
-    printf("La multiplicacion da: %.2f\n", respuesta);
-
-    return respuesta;
+    return resp;
 }
 
 
 
-float division(float A, float B);
 
-float division(float A, float B)
+float multiplicar(float num1, float num2);
+
+float multiplicar(float num1, float num2)
 {
-    float respuesta;
+    float resp;
 
-    respuesta = A / B;
+    resp = num1 * num2;
+    printf("La multiplicacion da: %.2f\n", resp);
 
-    if(B == 0)
+    return resp;
+}
+
+
+
+float division(float num1, float num2);
+
+float division(float num1, float num2)
+{
+    float resp;
+
+    resp = num1 / num2;
+
+    if(num2 == 0)
     {
         printf("ERROR, vuelva a ingresar numero\n");
     }
     else
     {
-        printf("La division da: %.2f\n", respuesta);
+        printf("La division da: %.2f\n", resp);
     }
 
 
-    return respuesta;
+    return resp;
 
 
 }
