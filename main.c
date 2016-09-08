@@ -15,20 +15,39 @@ system("color 8e");
 		printf("\n         บ               ::  bienvenido a la calculadora  ::         บ");
 		printf("\n         ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ\n\n");
 
-        system("pause");
 
-printf("ingrese el 1er operando: ");
-            scanf("%f", &ope1);
+
+system("pause");
+
+
+
+                printf("ingrese el 1er operando: ");
+                scanf("%f", &ope1);
                 printf("->ope1 = %.2f\n", ope1);
                 fope1 = 1;
+
+
+
                 printf("ingrese el 2do operando: ");
-            scanf("%f", &ope2);
+                scanf("%f", &ope2);
                 printf("->ope2 = %.2f\n", ope2);
                 fope2 = 1;
+
+
+
 system("pause");
 system("cls");
-    system("color 9f");
+system("color 9f");
+
+
+
+
+
     while(seguir == 'i')
+
+
+
+
     {
         printf("\n             ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐ");
 		printf("\n             ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐCALCULADORAฐฐฐฐฐฐฐฐฐฐฐฐฐฐ");printf("ฐ");
@@ -54,7 +73,11 @@ system("cls");
         printf("->Ingrese una opcion: ");
         scanf("%d",&opcion);
 
+
+
+
         while(opcion < 1 || opcion > 9)
+
         {
             printf("\nERROR, ingrese opcion nuevamente: ");
             scanf("%d", &opcion);
@@ -62,8 +85,8 @@ system("cls");
 
 
         switch(opcion)
-        {
 
+        {
          case 1:
             printf("ingrese el 1er operando: ");
             scanf("%f", &ope1);
@@ -196,6 +219,9 @@ system("cls");
 
 
     }
+
+
+
         printf("\n         ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป");
 		printf("\n         บ               ::       HASTA LA PROXIMA       ::          บ");
 		printf("\n         ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ\n\n");
