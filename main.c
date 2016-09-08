@@ -30,22 +30,22 @@ system("cls");
     system("color 9f");
     while(seguir == 'i')
     {
-        printf("\n         ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐ");
-		printf("\n         ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐCALCULADORAฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐ");printf("ฐ");
-		printf("\n         ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐ\n");
-        printf("\n         ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป");
-		printf("\n         บ                     ::     MENU DE OPCIONES  ::                         บ");
-		printf("\n         ฬอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออน");
-		printf("\n         บ  1- Ingrese 1er operando, ope1= %.2f:                               ", ope1);
-        printf("\n         บ  2- Ingrese 2do operando, ope2= %.2f:                               ", ope2);
-		printf("\n         บ  3- Calcular la suma (ope1 + ope2)                                      บ");
-		printf("\n         บ  4- Calcular la resta (ope1 - ope2)                                     บ");
-		printf("\n         บ  5- Calcular la division (ope1 / ope2)                                  บ");
-		printf("\n         บ  6- Calcular la multiplicacion (ope1 * ope2)                            บ");
-		printf("\n         บ  7- Calcular el factorial (ope1!)                                       บ");
-		printf("\n         บ  8- Calcular todas las operaciones                                      บ");
-		printf("\n         บ  9- Salir                                                               บ");
-		printf("\n         ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ");
+        printf("\n             ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐ");
+		printf("\n             ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐCALCULADORAฐฐฐฐฐฐฐฐฐฐฐฐฐฐ");printf("ฐ");
+		printf("\n             ฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐฐ\n");
+        printf("\n         ษออออออออออออออออออออออออออออออออออออออออออออออออป");
+		printf("\n         บ        :     MENU DE OPCIONES  ::              บ");
+		printf("\n         ฬออออออออออออออออออออออออออออออออออออออออออออออออน");
+		printf("\n         บ  1- Ingrese 1er operando, ope1= %.2f:          ", ope1);
+        printf("\n         บ  2- Ingrese 2do operando, ope2= %.2f:          ", ope2);
+		printf("\n         บ  3- Calcular la suma (ope1 + ope2)             บ");
+		printf("\n         บ  4- Calcular la resta (ope1 - ope2)            บ");
+		printf("\n         บ  5- Calcular la division (ope1 / ope2)         บ");
+		printf("\n         บ  6- Calcular la multiplicacion (ope1 * ope2)   บ");
+		printf("\n         บ  7- Calcular el factorial (ope1!)              บ");
+		printf("\n         บ  8- Calcular todas las operaciones             บ");
+		printf("\n         บ  9- Salir                                      บ");
+		printf("\n         ศออออออออออออออออออออออออออออออออออออออออออออออออผ");
 		printf("\n");
 
 
@@ -65,16 +65,19 @@ system("cls");
         {
 
          case 1:
-        printf("ingrese el 1er operando: ");
+            printf("ingrese el 1er operando: ");
             scanf("%f", &ope1);
-                printf("->ope1 = %.2f\n", ope1);
-                fope1 = 1;
-                break;
+            printf("->ope1 = %.2f\n", ope1);
+            fope1 = 1;
+               break;
+
+
+
          case 2:
             printf("ingrese el 2do operando: ");
             scanf("%f", &ope2);
-                printf("->ope2 = %.2f\n", ope2);
-                fope2 = 1;
+            printf("->ope2 = %.2f\n", ope2);
+            fope2 = 1;
                 break;
 
 
@@ -136,8 +139,9 @@ system("cls");
 
                      while(ope1>170)
                     { printf(" ERROR %.2f nose puede factorizar, ingrese un ope1 menor a 171 para realizar la operacion:  ", ope1);
-                    scanf("%f", &ope1);
-                      printf("->ope1 = %.2f\n", ope1);}
+                      scanf("%f", &ope1);
+                      printf("->ope1 = %.2f\n", ope1);
+                    }
 
                 if(fope1 == 1 & ope1!=0)
                 {
@@ -195,6 +199,9 @@ system("cls");
         printf("\n         ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป");
 		printf("\n         บ               ::       HASTA LA PROXIMA       ::          บ");
 		printf("\n         ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ\n\n");
+
+
+
     system("color a0")   ;
     return 0;
 }
